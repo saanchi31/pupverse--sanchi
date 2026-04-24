@@ -1,0 +1,237 @@
+
+
+.heading {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 60px;
+}
+    
+
+.body {
+  background: linear-gradient(130deg,#ffb6c1 , #ff91af , #f3a6ff);
+  background-size: 600% 600%;
+  animation: gradientMove 8s ease infinite;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.heart {
+  height: 50px;
+  width : 50px;
+}
+
+.gradient-text {
+  font-size: 60px;
+  font-weight: bold;
+  background: linear-gradient(270deg, antiquewhite, rgb(243, 236, 227), #a0eebc);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s ease infinite;
+  margin-left: 200PX;;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.h2 {
+  
+  text-align: center;
+}
+.subtitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+.fact-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#fact {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+  max-width: 80%; 
+}
+
+.random {
+  border-radius: 30px;
+  height: 50px;
+  width: 200px;
+  background-color:rgb(255, 228, 196);
+  font-size: 16px;
+  margin-left: 8px;;
+}
+
+.random-dog-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.random-dog-section button {
+  background-color: #ff8c94;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left : 450px;
+}
+
+.dog {
+  text-align: center;
+}
+
+.random-button {
+  background-color:rgb(255, 228, 196);
+  height : 70px;
+  width: 200px;
+  text-align: center;
+  margin-left: 520px;
+  border-radius : 30px;
+  font-size: 17px;
+  font-weight: 200;
+  padding-left: 0%;
+
+}
+.random-dog-section button:hover {
+  background-color: #ff5c6c;
+}
+
+.random-dog-container img {
+  margin-top: 20px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin-left: 475px;
+}
+
+
+.dog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.dog-card {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  width: 260px;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.img1 {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.subtypes {
+  display: none;
+  margin-top: 10px;
+  background-color: #fff0e0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.subtypes p {
+  margin: 0;
+}
+
+
+
+.dog-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.dog-gallery img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+.dog-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.breed1 {
+  height: 40px;
+  width: 200px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: antiquewhite;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.breed1:hover {
+  background-color: rgb(255, 228, 196);
+  
+}
+
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px white;
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.h1 {
+  color: #d63384;
+  margin-bottom: 30px;
+}
+
+
+
+
